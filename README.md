@@ -1,6 +1,15 @@
 # DynamicIsLandAndLiveActivity
 
+Design Guidelines 
+
+![design](https://user-images.githubusercontent.com/10974920/229375119-e6d9d9c5-387c-4330-b9c2-aa3d4114ce80.png)
+
+
+
 iOS 16 Live Activities Dynamic Island & Lock Screen & ActivityKit
+
+Preparing Project
+![WidgetSetUp](https://user-images.githubusercontent.com/10974920/229375085-40aa0e82-5e66-43e4-b4fc-a8de075dd921.png)
 
 
 Live Activities Lock Screen
