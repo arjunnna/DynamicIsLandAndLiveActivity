@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25F5350F29DA0AED007CFFA4 /* DynamicIsLandAndLiveActivityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F5350E29DA0AED007CFFA4 /* DynamicIsLandAndLiveActivityApp.swift */; };
+		25F5351129DA0AED007CFFA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F5351029DA0AED007CFFA4 /* ContentView.swift */; };
+		25F5351329DA0AEF007CFFA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25F5351229DA0AEF007CFFA4 /* Assets.xcassets */; };
+		25F5351629DA0AEF007CFFA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25F5351529DA0AEF007CFFA4 /* Preview Assets.xcassets */; };
+		25F5351D29DA0BC1007CFFA4 /* DynamicIsLandAndLiveActivityAppAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F5351C29DA0BC1007CFFA4 /* DynamicIsLandAndLiveActivityAppAttributes.swift */; };
+		25F5352529DA0C4F007CFFA4 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F5352429DA0C4F007CFFA4 /* WidgetKit.framework */; };
+		25F5352729DA0C4F007CFFA4 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F5352629DA0C4F007CFFA4 /* SwiftUI.framework */; };
+		25F5352A29DA0C4F007CFFA4 /* DynamicIsLandAndLiveActivityWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F5352929DA0C4F007CFFA4 /* DynamicIsLandAndLiveActivityWidgetBundle.swift */; };
+		25F5352C29DA0C4F007CFFA4 /* DynamicIsLandAndLiveActivityWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F5352B29DA0C4F007CFFA4 /* DynamicIsLandAndLiveActivityWidgetLiveActivity.swift */; };
+		25F5352E29DA0C4F007CFFA4 /* DynamicIsLandAndLiveActivityWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F5352D29DA0C4F007CFFA4 /* DynamicIsLandAndLiveActivityWidget.swift */; };
+		25F5353029DA0C51007CFFA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25F5352F29DA0C51007CFFA4 /* Assets.xcassets */; };
+		25F5353429DA0C51007CFFA4 /* DynamicIsLandAndLiveActivityWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 25F5352229DA0C4F007CFFA4 /* DynamicIsLandAndLiveActivityWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		25F5353929DA0C76007CFFA4 /* DynamicIsLandAndLiveActivityAppAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F5351C29DA0BC1007CFFA4 /* DynamicIsLandAndLiveActivityAppAttributes.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25F5353229DA0C51007CFFA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25F5350329DA0AED007CFFA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25F5352129DA0C4F007CFFA4;
+			remoteInfo = DynamicIsLandAndLiveActivityWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		25F5353829DA0C51007CFFA4 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				25F5353429DA0C51007CFFA4 /* DynamicIsLandAndLiveActivityWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		25F5350B29DA0AED007CFFA4 /* DynamicIsLandAndLiveActivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicIsLandAndLiveActivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25F5350E29DA0AED007CFFA4 /* DynamicIsLandAndLiveActivityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicIsLandAndLiveActivityApp.swift; sourceTree = "<group>"; };
+		25F5351029DA0AED007CFFA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		25F5351229DA0AEF007CFFA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25F5351529DA0AEF007CFFA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		25F5351C29DA0BC1007CFFA4 /* DynamicIsLandAndLiveActivityAppAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicIsLandAndLiveActivityAppAttributes.swift; sourceTree = "<group>"; };
+		25F5352229DA0C4F007CFFA4 /* DynamicIsLandAndLiveActivityWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DynamicIsLandAndLiveActivityWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		25F5352429DA0C4F007CFFA4 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		25F5352629DA0C4F007CFFA4 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		25F5352929DA0C4F007CFFA4 /* DynamicIsLandAndLiveActivityWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicIsLandAndLiveActivityWidgetBundle.swift; sourceTree = "<group>"; };
+		25F5352B29DA0C4F007CFFA4 /* DynamicIsLandAndLiveActivityWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicIsLandAndLiveActivityWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		25F5352D29DA0C4F007CFFA4 /* DynamicIsLandAndLiveActivityWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicIsLandAndLiveActivityWidget.swift; sourceTree = "<group>"; };
+		25F5352F29DA0C51007CFFA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25F5353129DA0C51007CFFA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25F5353A29DA0D0D007CFFA4 /* DynamicIsLandAndLiveActivityWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DynamicIsLandAndLiveActivityWidgetExtension.entitlements; sourceTree = "<group>"; };
+		25F5353B29DA0D16007CFFA4 /* DynamicIsLandAndLiveActivity.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DynamicIsLandAndLiveActivity.entitlements; sourceTree = "<group>"; };
+		25F5353C29DA0D1D007CFFA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25F5350829DA0AED007CFFA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F5351F29DA0C4F007CFFA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F5352729DA0C4F007CFFA4 /* SwiftUI.framework in Frameworks */,
+				25F5352529DA0C4F007CFFA4 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25F5350229DA0AED007CFFA4 = {
+			isa = PBXGroup;
+			children = (
+				25F5353A29DA0D0D007CFFA4 /* DynamicIsLandAndLiveActivityWidgetExtension.entitlements */,
+				25F5350D29DA0AED007CFFA4 /* DynamicIsLandAndLiveActivity */,
+				25F5352829DA0C4F007CFFA4 /* DynamicIsLandAndLiveActivityWidget */,
+				25F5352329DA0C4F007CFFA4 /* Frameworks */,
+				25F5350C29DA0AED007CFFA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25F5350C29DA0AED007CFFA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25F5350B29DA0AED007CFFA4 /* DynamicIsLandAndLiveActivity.app */,
+				25F5352229DA0C4F007CFFA4 /* DynamicIsLandAndLiveActivityWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25F5350D29DA0AED007CFFA4 /* DynamicIsLandAndLiveActivity */ = {
+			isa = PBXGroup;
+			children = (
+				25F5353C29DA0D1D007CFFA4 /* Info.plist */,
+				25F5353B29DA0D16007CFFA4 /* DynamicIsLandAndLiveActivity.entitlements */,
+				25F5350E29DA0AED007CFFA4 /* DynamicIsLandAndLiveActivityApp.swift */,
+				25F5351029DA0AED007CFFA4 /* ContentView.swift */,
+				25F5351C29DA0BC1007CFFA4 /* DynamicIsLandAndLiveActivityAppAttributes.swift */,
+				25F5351229DA0AEF007CFFA4 /* Assets.xcassets */,
+				25F5351429DA0AEF007CFFA4 /* Preview Content */,
+			);
+			path = DynamicIsLandAndLiveActivity;
+			sourceTree = "<group>";
+		};
+		25F5351429DA0AEF007CFFA4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				25F5351529DA0AEF007CFFA4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		25F5352329DA0C4F007CFFA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25F5352429DA0C4F007CFFA4 /* WidgetKit.framework */,
+				25F5352629DA0C4F007CFFA4 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25F5352829DA0C4F007CFFA4 /* DynamicIsLandAndLiveActivityWidget */ = {
+			isa = PBXGroup;
+			children = (
+				25F5352929DA0C4F007CFFA4 /* DynamicIsLandAndLiveActivityWidgetBundle.swift */,
+				25F5352B29DA0C4F007CFFA4 /* DynamicIsLandAndLiveActivityWidgetLiveActivity.swift */,
+				25F5352D29DA0C4F007CFFA4 /* DynamicIsLandAndLiveActivityWidget.swift */,
+				25F5352F29DA0C51007CFFA4 /* Assets.xcassets */,
+				25F5353129DA0C51007CFFA4 /* Info.plist */,
+			);
+			path = DynamicIsLandAndLiveActivityWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25F5350A29DA0AED007CFFA4 /* DynamicIsLandAndLiveActivity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25F5351929DA0AEF007CFFA4 /* Build configuration list for PBXNativeTarget "DynamicIsLandAndLiveActivity" */;
+			buildPhases = (
+				25F5350729DA0AED007CFFA4 /* Sources */,
+				25F5350829DA0AED007CFFA4 /* Frameworks */,
+				25F5350929DA0AED007CFFA4 /* Resources */,
+				25F5353829DA0C51007CFFA4 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25F5353329DA0C51007CFFA4 /* PBXTargetDependency */,
+			);
+			name = DynamicIsLandAndLiveActivity;
+			productName = DynamicIsLandAndLiveActivity;
+			productReference = 25F5350B29DA0AED007CFFA4 /* DynamicIsLandAndLiveActivity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25F5352129DA0C4F007CFFA4 /* DynamicIsLandAndLiveActivityWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25F5353529DA0C51007CFFA4 /* Build configuration list for PBXNativeTarget "DynamicIsLandAndLiveActivityWidgetExtension" */;
+			buildPhases = (
+				25F5351E29DA0C4F007CFFA4 /* Sources */,
+				25F5351F29DA0C4F007CFFA4 /* Frameworks */,
+				25F5352029DA0C4F007CFFA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicIsLandAndLiveActivityWidgetExtension;
+			productName = DynamicIsLandAndLiveActivityWidgetExtension;
+			productReference = 25F5352229DA0C4F007CFFA4 /* DynamicIsLandAndLiveActivityWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25F5350329DA0AED007CFFA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					25F5350A29DA0AED007CFFA4 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					25F5352129DA0C4F007CFFA4 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 25F5350629DA0AED007CFFA4 /* Build configuration list for PBXProject "DynamicIsLandAndLiveActivity" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25F5350229DA0AED007CFFA4;
+			productRefGroup = 25F5350C29DA0AED007CFFA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25F5350A29DA0AED007CFFA4 /* DynamicIsLandAndLiveActivity */,
+				25F5352129DA0C4F007CFFA4 /* DynamicIsLandAndLiveActivityWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25F5350929DA0AED007CFFA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F5351629DA0AEF007CFFA4 /* Preview Assets.xcassets in Resources */,
+				25F5351329DA0AEF007CFFA4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F5352029DA0C4F007CFFA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F5353029DA0C51007CFFA4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25F5350729DA0AED007CFFA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F5351D29DA0BC1007CFFA4 /* DynamicIsLandAndLiveActivityAppAttributes.swift in Sources */,
+				25F5351129DA0AED007CFFA4 /* ContentView.swift in Sources */,
+				25F5350F29DA0AED007CFFA4 /* DynamicIsLandAndLiveActivityApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F5351E29DA0C4F007CFFA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F5352C29DA0C4F007CFFA4 /* DynamicIsLandAndLiveActivityWidgetLiveActivity.swift in Sources */,
+				25F5352A29DA0C4F007CFFA4 /* DynamicIsLandAndLiveActivityWidgetBundle.swift in Sources */,
+				25F5353929DA0C76007CFFA4 /* DynamicIsLandAndLiveActivityAppAttributes.swift in Sources */,
+				25F5352E29DA0C4F007CFFA4 /* DynamicIsLandAndLiveActivityWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25F5353329DA0C51007CFFA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25F5352129DA0C4F007CFFA4 /* DynamicIsLandAndLiveActivityWidgetExtension */;
+			targetProxy = 25F5353229DA0C51007CFFA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25F5351729DA0AEF007CFFA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		25F5351829DA0AEF007CFFA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25F5351A29DA0AEF007CFFA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DynamicIsLandAndLiveActivity/DynamicIsLandAndLiveActivity.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DynamicIsLandAndLiveActivity/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DynamicIsLandAndLiveActivity/Info.plist;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mallikarjuna.DynamicIsLandAndLiveActivity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25F5351B29DA0AEF007CFFA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DynamicIsLandAndLiveActivity/DynamicIsLandAndLiveActivity.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DynamicIsLandAndLiveActivity/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DynamicIsLandAndLiveActivity/Info.plist;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mallikarjuna.DynamicIsLandAndLiveActivity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		25F5353629DA0C51007CFFA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = DynamicIsLandAndLiveActivityWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DynamicIsLandAndLiveActivityWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DynamicIsLandAndLiveActivityWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mallikarjuna.DynamicIsLandAndLiveActivity.DynamicIsLandAndLiveActivityWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25F5353729DA0C51007CFFA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = DynamicIsLandAndLiveActivityWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DynamicIsLandAndLiveActivityWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DynamicIsLandAndLiveActivityWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mallikarjuna.DynamicIsLandAndLiveActivity.DynamicIsLandAndLiveActivityWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25F5350629DA0AED007CFFA4 /* Build configuration list for PBXProject "DynamicIsLandAndLiveActivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25F5351729DA0AEF007CFFA4 /* Debug */,
+				25F5351829DA0AEF007CFFA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25F5351929DA0AEF007CFFA4 /* Build configuration list for PBXNativeTarget "DynamicIsLandAndLiveActivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25F5351A29DA0AEF007CFFA4 /* Debug */,
+				25F5351B29DA0AEF007CFFA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25F5353529DA0C51007CFFA4 /* Build configuration list for PBXNativeTarget "DynamicIsLandAndLiveActivityWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25F5353629DA0C51007CFFA4 /* Debug */,
+				25F5353729DA0C51007CFFA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25F5350329DA0AED007CFFA4 /* Project object */;
+}
